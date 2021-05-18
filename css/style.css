@@ -1,0 +1,109 @@
+/* start veriables */
+:root{
+    --main-color:#4e5595;
+    --second-color:#ff6478;
+    --section-padding:40px;
+    --part-padding:10px;
+ }
+/* end veriables */
+/* start globale value */
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+body{
+ font-family: 'Work Sans', sans-serif;
+ }
+/* end globale value */
+/* start component  */
+.container{
+    /* background-image:url(../images/background.jpg) ; */
+    background-repeat:repeat;
+    padding-left:15px;
+    padding-right: 15px;
+    margin:0 auto;
+    width: 80%;
+}
+.special-head{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 40px;
+}
+button{
+    background-color: var(--second-color);
+    padding: 5px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    font-size: 10px;
+    border-style:none;
+    color: white;
+}
+small{
+    color: var(--main-color);
+}
+p{
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 300;   
+}
+/* end component  */
+/* start header */
+.header .side{
+    width: 10%;
+    float:left;
+}
+.header .image img{
+    width: 100%;
+} 
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-color);
+    font-size: 15px;
+}
+.header .container .left-nav ul{
+    display: inline-block;
+    list-style: none;
+}
+  .header .container .left-nav ul li{
+    display: inline-block;
+    text-align: center;
+    color:var(--main-color);
+    font-weight: 500; 
+}
+ .header .container .left-nav ul li a{
+    text-decoration: none; 
+}
+  .header .container .right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    font-weight: 500;
+}
+.header .container .right-nav .part1  {
+    width: 30%;
+    padding: 9px;
+}
+ .header .container .right-nav .part1 i {
+    font-weight: 900;
+    font-size: 8px;
+}
+ .header .container .right-nav .part2  {
+    color: var(--second-color);
+    text-align: center;
+    background-color:  #f3eeee;
+    width: 65%;
+    font-weight: 500;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+}
+/* end header */
