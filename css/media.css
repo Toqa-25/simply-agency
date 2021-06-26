@@ -1,0 +1,185 @@
+/* start component */
+/* smaller size */
+@media (min-width:375px) {
+    .container .left-nav ul li {
+    padding-right: 1px;
+    font-size: 5px;
+}
+.header .container .right-nav .part1  {
+  padding: 2px;
+  font-size: 5px;
+  }
+  .header .container .right-nav .part1 i {
+    font-weight: 900;
+    font-size: 4px;
+}
+   .header .container .right-nav .part2  {
+     font-size: 4px;
+     padding: 2px;
+   }
+   .special-head{
+ 
+    font-size: 16px;
+}
+.sprit .container .sprit-up{
+  justify-content: center;
+}
+.sprit .container .sprit-up .left-sprit p{
+  font-size: 8px;
+}
+.sprit .container .sprit-down button:last-child{
+  padding-top: 10px;
+}
+/* .image img{
+  width: 200px;
+  height: 200px;
+} */
+.anything .container h1{
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+}
+/*  Small size */
+@media (min-width:500px) {
+    .container .left-nav ul li {
+    padding-right: 3px;
+    font-size: 10px;
+}
+.header .container .right-nav .part1  {
+  padding: 3px;
+  font-size: 8px;
+  }
+
+  .header .container .right-nav .part1 i {
+    font-weight: 900;
+    font-size: 7px;
+}
+  .header  .container .right-nav .part2  {
+     font-size: 8px;
+     padding: 2px;
+   }
+   .sprit .container .sprit-up{
+    justify-content: space-between;
+  }
+   .special-head{
+   font-size: 23px;
+}
+}
+@media (max-width:550px) {
+  .sprit .container .sprit-up{
+    justify-content: center;
+  }
+  .anything .container h1{
+    font-size: 25px;
+    color: var(--main-color);
+  }
+}
+
+
+
+
+/*  meiem size */
+@media (min-width: 768px) {
+   .container .left-nav ul li {
+      padding-right: 15px;
+      font-size: 13px; 
+  }
+  .header .container .right-nav .part1  {
+   padding: 5px;
+   font-size: 13px;
+   }
+  .header .container .right-nav .part1 i {
+    font-weight: 900;
+    font-size: 7px;
+}
+  
+   .header .container .right-nav .part2  {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .special-head{
+      font-size: 36px;
+  }
+  .sprit .container .sprit-up .left-sprit p{
+    font-size: 14.5px;
+    line-height: 1.7;}
+  button{
+    padding: 10px;
+  }
+  .sprit .container .sprit-down button:last-child{
+    padding-top: 0;
+  }
+ /* .image img{
+    width: 250px;
+    height: 250px;
+  } */
+
+
+  /* .sprit .container .sprit-up .right-sprit img{
+    width: 70%;
+} */
+  
+  
+  }
+  /* larg size*/
+@media (min-width: 990px) {
+ .container .left-nav ul li {
+    padding-right: 20px;
+    font-size: 15px; 
+}
+.header .container .right-nav .part1  {
+  font-size: 15px;
+  padding: 9px;
+}
+.header .container .right-nav .part1 i {
+  font-weight: 900;
+  font-size: 10px;
+}
+.header .container .right-nav .part2  {
+  padding: 8px;
+ font-size: 15px;
+}
+  .special-head{
+    font-size: 52px;
+}
+/* .image img{
+  width: 300px;
+  height: 300px;
+} */
+
+/* .sprit .container .sprit-up .right-sprit img{
+  width: 100%;
+} */
+}
+
+  /* big size*/
+@media (min-width: 1120px) {
+  .special-head{
+ 
+    font-size: 55px;
+}
+}
+@media (max-width:990px){
+  .sprit .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
+  @media  (max-width: 500px) {
+    .image img {
+      width: 300px;}
+  .image-section  .container .images-part{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px , 1fr));
+    grid-gap:20px
+}
+ .image-section .container .images-part img{
+    width: 250px;
+}
+}
+
+
+
+/* end component */
